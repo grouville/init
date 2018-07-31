@@ -1,0 +1,2 @@
+sudo iptables -L
+#iptables -L liste les regles de pare-feu

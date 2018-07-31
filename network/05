@@ -1,0 +1,1 @@
+nslookup slash16.org | tail -r | tail -n +2 | tail -r

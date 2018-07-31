@@ -1,0 +1,2 @@
+echo "/etc/hostname"
+#c'est le fichier a modifier pour rendre cela permanent

@@ -1,0 +1,6 @@
+kill -9 $!
+#%1 == numero du job a terminer (donne par la commande jobs)
+#verifier les process en background : jobs
+#revenir sur un processs background : fg 1 (1 = numero affiche par jobs)
+#creer un jobs en background pour tester : sleep 100 &
+# $! -> PID last backgrounded job

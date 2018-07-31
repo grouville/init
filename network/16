@@ -1,0 +1,2 @@
+sudo echo "46.19.122.85  intra.42.fr" >> /etc/hosts
+#permission denied sans sudo, mais fonctionne sur ordi perso

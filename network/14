@@ -1,0 +1,5 @@
+echo "Server:		10.51.1.5"
+echo "Address:	10.51.1.5#53"
+
+echo "81.1.51.10.in-addr.arpa	name = mattermost.le-101.fr."
+#commande : nslookup 10.51.1.81

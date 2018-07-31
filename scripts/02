@@ -1,0 +1,8 @@
+echo "----------------------"
+date
+echo "----------------------"
+sudo apt update
+echo "----------------------"
+sudo apt upgrade
+#crontab : lister les cron -> crontab -l
+#crontab : editer les cron -> sudo (pour nous) crontab -e

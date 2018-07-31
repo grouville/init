@@ -1,0 +1,2 @@
+# ls -l /etc/resolv.conf --> lien symbolique qui redirige vers ce path
+echo /var/run/resolv.conf

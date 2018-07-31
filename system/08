@@ -1,0 +1,6 @@
+echo "/home/init/.ssh/authorized_keys"
+#il faut d'abord generer des cles RSA -> ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+#puis pour autoriser les cles (soit automatiquement : ssh-copy-id -i ~/.ssh/id_rsa.pub user@ip_machine
+#mais en l'occurence, j'ai fait : cat /home/init/.ssh/id_rsa.pub >> /home/init/.ssh/authorized_keys
+#pour se co en ssh : trouver ip adress ip addr show
+#puis apres : ssh ipadress :-)

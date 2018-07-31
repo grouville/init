@@ -1,0 +1,3 @@
+sudo du -h /var/*
+#du displays disk usage data
+#-h  : human readable

@@ -1,0 +1,2 @@
+nslookup slash16.org 8.8.8.8 | tail -r | tail -n +2 | tail -r
+#nsloopkup -> outil recherche information dns (associe nom de domaine et ip)

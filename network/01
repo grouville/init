@@ -1,0 +1,2 @@
+ifconfig -l
+#ifconfig permet de configurer ip et sous reseau ordi

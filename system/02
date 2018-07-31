@@ -1,0 +1,4 @@
+hostname test
+#se mettre en sudo (commande su), puis apres ecrire commande + nom que l'on veut donner
+#par ailleurs, pour verifier nom : hostname tout seul
+##refaire su init (mon login) pour revenir sur la session courante

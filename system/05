@@ -1,0 +1,5 @@
+systemctl status sshd
+#commande pour demarrer ssh : systemctl start sshd
+#commande pour arreter ssh : systemctl stop sshd
+#commande pour redemarrer ssh : systemctl start sshd
+#commande pour verifier le port d'ecoute (22 d'origine) : ss -lntp |grep "22"

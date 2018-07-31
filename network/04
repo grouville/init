@@ -1,0 +1,3 @@
+netstat -nr | grep "default" | head -1 | tr -s ' '
+#commande pour afficher information connexions reseau
+#-n -> afficher en nombre || -r -> table de routage

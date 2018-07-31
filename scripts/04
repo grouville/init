@@ -1,0 +1,13 @@
+#!/bin/bash
+if [[ $(md5sum /etc/crontab.backup | cut -d ' ' -f1) != $(md5sum /etc/crontab | cut -d ' ' -f1) ]]
+then
+	mail -s "The crontab was modified" root < /etc/crontab
+fi	
+
+#1. create backup crontab everyday at  00.01 -> cat /etc/crontab /etc/crontab.backup 2>&1
+#2. added it to my crontab jobs (sudo)
+#3. crontab script that emails if change in md5sum
+#4. crontab it every day at midday1
+#5. turn my personal email as root : in /etc/aliases, add my email at the 'root' line
+#then, write in shell 'newaliases', and 'service postfix restart'
+#5. sudo crontab this script everyday a midnight (script 04 on the home/init)

@@ -1,0 +1,5 @@
+echo cloudfront
+#mettre telnet slash16.org 80
+#puis dans invite de commande : HEAD / HTTP/1.0
+#puis enter, et de nouveau enter
+#regarder ligne Server
